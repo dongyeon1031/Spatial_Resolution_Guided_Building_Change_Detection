@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23795910.svg)](https://doi.org/10.5281/zenodo.23795910)
+
 # Spatial-Resolution-Guided Building Change Detection
 
 Evaluation code and split lists accompanying **Performance Analysis of
