@@ -4,6 +4,15 @@
   "code_split_integrity_and_manifest": "PASS",
   "unit_tests_passed": 14,
   "citation_cff_schema": "1.2.0 PASS",
+  "citation_zenodo_conversion": {
+    "tool": "cffconvert 2.0.0",
+    "status": "PASS",
+    "license_id_type": "string",
+    "license_id": "Apache-2.0",
+    "scoped_split_metadata_license": "CC-BY-4.0 (unchanged)",
+    "metadata_regression_tests_passed": 5,
+    "zenodo_server_ingestion_verified": false
+  },
   "bundled_weight_files": 0,
   "manuscript_values_unchanged_from_source_bundle": true,
   "split_and_vendor_sources_unchanged_from_source_bundle": true,

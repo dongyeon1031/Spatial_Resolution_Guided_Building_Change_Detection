@@ -109,6 +109,11 @@ Third-party source retains its existing notices and terms. See
 `evaluation/LICENSE_SCOPE.txt` for the file-level scope and bundled license texts.
 No license to excluded imagery, masks or weights is granted by this repository.
 
+For Zenodo compatibility, `CITATION.cff` identifies the primary software license
+with the single value `Apache-2.0`. This does not change the CC BY 4.0 license of
+the split lists and descriptive metadata. After import, also add CC BY 4.0 to
+the Zenodo record and retain this file-level scope in its description.
+
 Use `CITATION.cff` to cite this companion software. No Zenodo DOI has been assigned
 yet. Connect this repository to Zenodo before publishing a GitHub release, then
 review the deposit metadata and both applicable license scopes. A Git push alone

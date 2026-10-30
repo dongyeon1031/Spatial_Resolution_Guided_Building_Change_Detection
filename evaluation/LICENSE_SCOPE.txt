@@ -1,4 +1,4 @@
-Licensing for Evaluation Code and Split Lists, version 1.0.0
+Licensing for Evaluation Code and Split Lists, version 1.0.1
 =======================================================
 
 Author approval was received on 2026-10-30 for:
@@ -23,3 +23,8 @@ Author approval was received on 2026-10-30 for:
 Model weights, original remote-sensing images and GT masks are not included.
 Their original terms remain applicable. No rights in excluded material are
 granted here. The root LICENSE covers new code, not all file types indiscriminately.
+
+CITATION.cff names the primary software license as a single Apache-2.0 value
+for compatibility with Zenodo's importer. This does not relicense the split
+lists or descriptive metadata. A Zenodo record should also list CC BY 4.0,
+with the file-level scope described above, after import.

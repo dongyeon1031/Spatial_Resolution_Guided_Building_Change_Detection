@@ -2,13 +2,13 @@ cff-version: 1.2.0
 message: "Please cite this companion software when using its evaluation code or split lists."
 type: software
 title: "Performance Analysis of Spatial-Resolution-Guided Integrated Pretraining and Domain-Specific Fine-Tuning for Building Change Detection Using Korean and International Datasets - Evaluation Code and Split Lists"
-version: 1.0.0
+version: 1.0.1
 repository-code: "https://github.com/dongyeon1031/Spatial_Resolution_Guided_Building_Change_Detection"
 url: "https://github.com/dongyeon1031/Spatial_Resolution_Guided_Building_Change_Detection"
 abstract: "MambaBCD evaluation code, inference settings, prepared-data split lists and manuscript-linked metadata. Model weights, raw images and ground-truth masks are not distributed. Evaluation requires external hash-matching weights and prepared data; complete manuscript numerical reproducibility is not certified. New code is Apache-2.0; split lists and descriptive metadata are CC BY 4.0. Third-party sources retain their own terms."
-license:
-  - Apache-2.0
-  - CC-BY-4.0
+# Primary software license for Zenodo's single-value CFF importer.
+# Split/metadata terms remain CC BY 4.0; see evaluation/LICENSE_SCOPE.txt.
+license: Apache-2.0
 authors:
   - family-names: Lee
     given-names: Kwon

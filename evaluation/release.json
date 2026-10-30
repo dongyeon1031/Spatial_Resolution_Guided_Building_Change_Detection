@@ -1,6 +1,6 @@
 {
   "status": "CODE_AND_SPLITS_REPOSITORY",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/dongyeon1031/Spatial_Resolution_Guided_Building_Change_Detection",
   "scope": "Evaluation code/settings, prepared-data split lists and manuscript-linked metadata only",
   "manuscript_sha256": "2e8b54ac39df0d5aca630f7d852b7fa32de1e919cf0879f89b9cf416a0b66c01",
