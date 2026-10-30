@@ -1,0 +1,9 @@
+# PyTorch and CUDA: NVIDIA PyTorch 25.08 reference container
+numpy==1.26.4
+Pillow==11.3.0
+einops==0.8.1
+triton==3.3.1
+ninja==1.11.1.4
+packaging
+setuptools
+wheel

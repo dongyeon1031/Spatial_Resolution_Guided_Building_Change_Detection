@@ -1,0 +1,51 @@
+{
+  "title": "Performance Analysis of Spatial-Resolution-Guided Integrated Pretraining and Domain-Specific Fine-Tuning for Building Change Detection Using Korean and International Datasets - Evaluation Code and Split Lists",
+  "version": "1.0.0",
+  "resource_type": "Software",
+  "creators": [
+    {
+      "name": "Lee, Kwon",
+      "affiliation": "MindForge Co., Ltd.",
+      "orcid": "0000-0003-3543-7416"
+    },
+    {
+      "name": "Kim, Dongyeon",
+      "affiliation": "MindForge Co., Ltd.",
+      "orcid": "0009-0006-2181-1365"
+    },
+    {
+      "name": "Hwang, Yejin",
+      "affiliation": "MindForge Co., Ltd.",
+      "orcid": "0009-0004-4054-208X"
+    },
+    {
+      "name": "Chae, Kyuyeol",
+      "affiliation": "MindForge Co., Ltd.",
+      "orcid": "0009-0000-5231-2792"
+    }
+  ],
+  "description": "MambaBCD evaluation code/settings, prepared-data split lists and manuscript-linked metadata. No model weights, original imagery, GT, training states or bulk predictions are distributed. The manifest records 21 checkpoint-bound observations and three unresolved historical Single entries. Evaluation requires separately supplied hash-matching inference-only weights and prepared data; this repository does not certify full manuscript numerical reproduction.",
+  "keywords": [
+    "Building change detection",
+    "Spatial resolution",
+    "Integrated pretraining",
+    "Domain-specific fine-tuning",
+    "MambaBCD"
+  ],
+  "licenses": [
+    {
+      "id": "cc-by-4.0",
+      "scope": "Split lists and descriptive metadata, excluding third-party works"
+    },
+    {
+      "id": "apache-2.0",
+      "scope": "New evaluation code; third-party notices remain applicable"
+    }
+  ],
+  "doi": null,
+  "publication_date": null,
+  "metadata_author_approval_required": false,
+  "field_guide": "https://help.zenodo.org/docs/deposit/describe-records/",
+  "repository": "https://github.com/dongyeon1031/Spatial_Resolution_Guided_Building_Change_Detection",
+  "zenodo_submission_required": true
+}

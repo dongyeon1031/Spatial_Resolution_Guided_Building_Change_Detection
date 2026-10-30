@@ -1,0 +1,25 @@
+Licensing for Evaluation Code and Split Lists, version 1.0.0
+=======================================================
+
+Author approval was received on 2026-10-30 for:
+
+1. Newly authored evaluation code (evaluate.py, verify.py and tests/): Apache-2.0.
+   Full terms: LICENSE.Apache-2.0.txt
+   https://www.apache.org/licenses/LICENSE-2.0
+
+2. Split lists and descriptive metadata: CC BY 4.0.
+   This includes splits/, manifest.csv, CITATION.cff and the descriptive README
+   and JSON/CSV records authored for this package, excluding third-party works.
+   Full terms: LICENSE.CC-BY-4.0.txt
+   https://creativecommons.org/licenses/by/4.0/
+   Attribution: Kwon Lee, Dongyeon Kim, Yejin Hwang and Kyuyeol Chae;
+   use the package title/version and add the repository DOI when assigned.
+
+3. Third-party source and mechanically extracted helpers: retain their
+   existing applicable licenses and notices. See THIRD_PARTY.txt,
+   LICENSE.ChangeMamba and the notices in individual source files.
+   This statement does not replace or expand third-party license grants.
+
+Model weights, original remote-sensing images and GT masks are not included.
+Their original terms remain applicable. No rights in excluded material are
+granted here. The root LICENSE covers new code, not all file types indiscriminately.

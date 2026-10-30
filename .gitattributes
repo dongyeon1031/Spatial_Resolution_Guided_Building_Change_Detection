@@ -1,0 +1,2 @@
+# Preserve the exact bytes of hash-pinned splits and evaluation sources.
+* -text

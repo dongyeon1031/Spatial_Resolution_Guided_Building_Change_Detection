@@ -1,0 +1,20 @@
+{
+  "status": "CODE_ONLY_CHECKS_PASS",
+  "scope": "Code-only repository checks; weights and data are external",
+  "code_split_integrity_and_manifest": "PASS",
+  "unit_tests_passed": 14,
+  "citation_cff_schema": "1.2.0 PASS",
+  "bundled_weight_files": 0,
+  "manuscript_values_unchanged_from_source_bundle": true,
+  "split_and_vendor_sources_unchanged_from_source_bundle": true,
+  "external_checkpoint_smoke_test": {
+    "entry_id": "single_levirplus",
+    "image_pairs": 1,
+    "checkpoint_hash_verified": true,
+    "per_image_confusion_matches_previous_evaluator": true,
+    "complete_test_split": false
+  },
+  "full_manuscript_numerical_reproduction_certified": false,
+  "fresh_cuda_extension_build_tested": false,
+  "fresh_provider_download_preparation_tested": false
+}

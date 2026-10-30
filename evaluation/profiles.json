@@ -1,0 +1,359 @@
+{
+  "single_levirplus": {
+    "layout": [
+      "T1",
+      "T2",
+      "GT"
+    ],
+    "label_policy": "divide255",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 16,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "all_levirplus": {
+    "layout": [
+      "T1",
+      "T2",
+      "GT"
+    ],
+    "label_policy": "divide255",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 16,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "all_whu": {
+    "layout": [
+      "A",
+      "B",
+      "label"
+    ],
+    "label_policy": "binary_threshold",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 64,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "all_s2looking": {
+    "layout": [
+      "A",
+      "B",
+      "label"
+    ],
+    "label_policy": "binary_threshold",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 64,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "all_aihub": {
+    "layout": [
+      "A",
+      "B",
+      "label"
+    ],
+    "label_policy": "binary_threshold",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 64,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "all_ft_levirplus": {
+    "layout": [
+      "T1",
+      "T2",
+      "GT"
+    ],
+    "label_policy": "divide255",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 16,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "all_ft_whu": {
+    "layout": [
+      "T1",
+      "T2",
+      "GT"
+    ],
+    "label_policy": "divide255",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 64,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "all_ft_s2looking": {
+    "layout": [
+      "A",
+      "B",
+      "label"
+    ],
+    "label_policy": "binary_threshold",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 64,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "all_ft_aihub": {
+    "layout": [
+      "A",
+      "B",
+      "label"
+    ],
+    "label_policy": "binary_threshold",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 64,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "grouped_levirplus": {
+    "layout": [
+      "T1",
+      "T2",
+      "GT"
+    ],
+    "label_policy": "divide255",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 16,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "grouped_whu": {
+    "layout": [
+      "A",
+      "B",
+      "label"
+    ],
+    "label_policy": "binary_threshold",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 64,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "grouped_s2looking": {
+    "layout": [
+      "A",
+      "B",
+      "label"
+    ],
+    "label_policy": "binary_threshold",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 64,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "grouped_aihub": {
+    "layout": [
+      "A",
+      "B",
+      "label"
+    ],
+    "label_policy": "binary_threshold",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 64,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "grouped_ft_levirplus": {
+    "layout": [
+      "T1",
+      "T2",
+      "GT"
+    ],
+    "label_policy": "divide255",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 16,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "grouped_ft_whu": {
+    "layout": [
+      "T1",
+      "T2",
+      "GT"
+    ],
+    "label_policy": "divide255",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 1,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "grouped_ft_s2looking": {
+    "layout": [
+      "A",
+      "B",
+      "label"
+    ],
+    "label_policy": "binary_threshold",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 64,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "grouped_ft_aihub": {
+    "layout": [
+      "A",
+      "B",
+      "label"
+    ],
+    "label_policy": "binary_threshold",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 64,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "single70k_levirplus": {
+    "layout": [
+      "T1",
+      "T2",
+      "GT"
+    ],
+    "label_policy": "divide255",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 64,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "single70k_whu": {
+    "layout": [
+      "T1",
+      "T2",
+      "GT"
+    ],
+    "label_policy": "divide255",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 1,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "single70k_s2looking": {
+    "layout": [
+      "A",
+      "B",
+      "label"
+    ],
+    "label_policy": "binary_threshold",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 64,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  },
+  "single70k_aihub": {
+    "layout": [
+      "A",
+      "B",
+      "label"
+    ],
+    "label_policy": "binary_threshold",
+    "tile_size": 256,
+    "stride": 256,
+    "tile_batch_size": 64,
+    "edge_alignment": "align_last",
+    "blend": "uniform_logits",
+    "precision": "bfloat16",
+    "decision": "argmax",
+    "resizing": false,
+    "tta": false
+  }
+}

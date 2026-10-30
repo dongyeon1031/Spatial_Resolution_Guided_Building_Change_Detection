@@ -1,0 +1,33 @@
+{
+  "status": "CODE_AND_SPLITS_REPOSITORY",
+  "version": "1.0.0",
+  "repository": "https://github.com/dongyeon1031/Spatial_Resolution_Guided_Building_Change_Detection",
+  "scope": "Evaluation code/settings, prepared-data split lists and manuscript-linked metadata only",
+  "manuscript_sha256": "2e8b54ac39df0d5aca630f7d852b7fa32de1e919cf0879f89b9cf416a0b66c01",
+  "weights_included": false,
+  "referenced_unique_weights": 15,
+  "externally_bound_entries": 21,
+  "withheld_entries": [
+    "single_whu",
+    "single_s2looking",
+    "single_aihub"
+  ],
+  "full_manuscript_reproduction_certified": false,
+  "licenses_approved": true,
+  "limitations": [
+    "External hash-matching inference-only weights are required and are not distributed here",
+    "Three legacy Single checkpoint/evaluation bindings are unresolved",
+    "Fresh-download AI Hub/WHU provider-to-prepared mapping is incomplete",
+    "Complete historical numerical reproduction is not certified"
+  ],
+  "exclusions": [
+    "All model weights",
+    "Raw imagery and GT",
+    "Optimizer/RNG states",
+    "Unreported experiments",
+    "Bulk predictions",
+    "Manuscripts and internal audit logs"
+  ],
+  "zenodo_published": false,
+  "doi": null
+}

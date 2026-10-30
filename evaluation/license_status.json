@@ -1,0 +1,21 @@
+{
+  "status": "APPROVED",
+  "approved": true,
+  "approval_date": "2026-10-30",
+  "authored_code_license": "Apache-2.0",
+  "third_party_licenses_retained": true,
+  "cc_legalcode_source": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+  "cc_legalcode_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+  "upstream_licenses": {
+    "LICENSE.VMamba.MIT.txt": {
+      "source": "https://raw.githubusercontent.com/MzeroMiko/VMamba/main/LICENSE",
+      "sha256": "fb8d4c2d5c5bc007e3176259bde6647bbb2a7a017eaab52f4a86e44d86c61076"
+    },
+    "LICENSE.Mamba.Apache-2.0.txt": {
+      "source": "https://raw.githubusercontent.com/state-spaces/mamba/main/LICENSE",
+      "sha256": "760939b000194d04548ede6a857bbe735d1695d8422ec85955c8e2bd7f4b95c5"
+    }
+  },
+  "split_metadata_license": "CC-BY-4.0",
+  "weights_included": false
+}

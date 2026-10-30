@@ -1,0 +1,9 @@
+{
+  "reference_container": "nvcr.io/nvidia/pytorch:25.08-py3",
+  "python": "3.12",
+  "torch": "2.8.0a0+34c6371d24.nv25.08",
+  "triton": "3.3.1",
+  "amp": "bfloat16",
+  "cuda_extension": "Build the supplied source for the target GPU; compiled binaries are not bundled",
+  "verification_scope": "Runtime evaluation tests use the installed CUDA extension; fresh CUDA compilation is not yet certified"
+}

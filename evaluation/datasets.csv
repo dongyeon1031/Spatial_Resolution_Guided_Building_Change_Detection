@@ -1,0 +1,5 @@
+dataset,official_url,access_note,release_policy,checked_on
+AI Hub,https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=491,Provider registration and eligibility requirements apply; consult current terms,Link only; no original imagery or GT,2026-10-28
+WHU-CD,https://gpcv.whu.edu.cn/data/building_dataset.html,Use the building change detection subset rather than the single-date building extraction subset,Link only; no original imagery or GT,2026-10-28
+LEVIR-CD+,https://github.com/S2Looking/Dataset/tree/main/LEVIR-CD%2B,Use LEVIR-CD+ rather than LEVIR-CD; follow provider download instructions,Link only; no original imagery or GT,2026-10-28
+S2Looking,https://github.com/S2Looking/Dataset/tree/main/S2Looking,Follow provider download instructions and current terms,Link only; no original imagery or GT,2026-10-28

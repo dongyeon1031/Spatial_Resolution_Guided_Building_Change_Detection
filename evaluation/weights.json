@@ -1,0 +1,122 @@
+{
+  "single_levirplus": {
+    "file": "weights/single_levirplus.pth",
+    "sha256": "b7e5bb5472f5b38b8de51147d8eba8d818ac2b303aad6d3e314a16778afa46ab",
+    "original_checkpoint_sha256": "aaafca04c51f1bd7ff180e4827c1a3a6b23a71642ee9dfc88faa8d69efec91bf",
+    "iteration": 14500,
+    "tensors": 712,
+    "distribution": "not_included"
+  },
+  "all_integrated": {
+    "file": "weights/all_integrated.pth",
+    "sha256": "a934c295a4347cd7695ef400fd11af26f42870dc08548aded79023b7c8d5c2b4",
+    "original_checkpoint_sha256": "6e02dc286b1444bda8c10c68c854fbd1585ae13de61cfa088d013ed29ef578c9",
+    "iteration": 47430,
+    "tensors": 712,
+    "distribution": "not_included"
+  },
+  "all_ft_levirplus": {
+    "file": "weights/all_ft_levirplus.pth",
+    "sha256": "4539faf2967c71d934c564fecdd3c51089c7a9aa88a4de1c4b8ce12f636e5d24",
+    "original_checkpoint_sha256": "70fbb7010af41a849aa62022948450a26dc417da440d6e8c3b78b719b1d6d2b4",
+    "iteration": 250,
+    "tensors": 712,
+    "distribution": "not_included"
+  },
+  "all_ft_whu": {
+    "file": "weights/all_ft_whu.pth",
+    "sha256": "262b18212fac938c5658a275f940f7bfa9d62a7e6328d276afb2f0af41545e9d",
+    "original_checkpoint_sha256": "0dd43841f87ca8a9ef34b257cf3a9c4d8ea7d9be15c6fcd360a13719e8f3fcc6",
+    "iteration": 5000,
+    "tensors": 712,
+    "distribution": "not_included"
+  },
+  "all_ft_s2looking": {
+    "file": "weights/all_ft_s2looking.pth",
+    "sha256": "d0d945674938d354adbddc50ae7da019f87eef0ec5a821b76c5cc31f43ab969f",
+    "original_checkpoint_sha256": "d7000d39a31ff77ccff302dce2be14436cf4c59cb476ee28b35884e66f08dfb4",
+    "iteration": 10000,
+    "tensors": 712,
+    "distribution": "not_included"
+  },
+  "all_ft_aihub": {
+    "file": "weights/all_ft_aihub.pth",
+    "sha256": "efba7bf7e160dab2ad7660ccf12a7658bec53e9706ee314cb20f165e7d3cc04e",
+    "original_checkpoint_sha256": "6687c276f43e82a5d5c2c21387dba3f0f82eb45c7037bdf50193ac6afd1123dc",
+    "iteration": 5500,
+    "tensors": 712,
+    "distribution": "not_included"
+  },
+  "grouped_low_50k": {
+    "file": "weights/grouped_low_50k.pth",
+    "sha256": "576d9e6b0092d8e20b8d0c419ef44fb9e0f8ac847b40119184d880d5d8a0cd53",
+    "original_checkpoint_sha256": "009cb56fd19744a91a83df44b9d04b1d52deb1ae17ea7903bb6bb7be8bd6fb82",
+    "iteration": 21000,
+    "tensors": 712,
+    "distribution": "not_included"
+  },
+  "grouped_ft_levirplus": {
+    "file": "weights/grouped_ft_levirplus.pth",
+    "sha256": "d23a9316bbd6b5cfbd19099e1dc5791e8b8aec3dac6351307d70cbd7609b954e",
+    "original_checkpoint_sha256": "c4ebba00f6e133360ea86466bb52cb5cbe59a3800bc07fe66e23e5578417546e",
+    "iteration": 11500,
+    "tensors": 712,
+    "distribution": "not_included"
+  },
+  "grouped_ft_whu": {
+    "file": "weights/grouped_ft_whu.pth",
+    "sha256": "4e1d5feeb5cfad2cb5a771f14616aac52c364eada7ea086a3769be72bea239ce",
+    "original_checkpoint_sha256": "362ba29e356fbe384f00d1c3a3b3b3a81127524b312c83627d37fd94055bca79",
+    "iteration": 14000,
+    "tensors": 712,
+    "distribution": "not_included"
+  },
+  "grouped_ft_s2looking": {
+    "file": "weights/grouped_ft_s2looking.pth",
+    "sha256": "6b53eabbdbc603ec043c51b1006b25faa2558dd5b467bc137686bce9a4224b4a",
+    "original_checkpoint_sha256": "cbdf5f88b3c162de596814b20978bfc8fd8edc412123b99af5925dfee0945e3a",
+    "iteration": 18000,
+    "tensors": 712,
+    "distribution": "not_included"
+  },
+  "grouped_ft_aihub": {
+    "file": "weights/grouped_ft_aihub.pth",
+    "sha256": "7ca87450f40ef3d10caf84acaa7823fefc0449ffcdfd6c8dff800ab2e4d4f241",
+    "original_checkpoint_sha256": "b40cbaf297f56554c98c951953ba12b0a52693bebdb28a85e252f08eec0f4d54",
+    "iteration": 11500,
+    "tensors": 712,
+    "distribution": "not_included"
+  },
+  "grouped_high_150k": {
+    "file": "weights/grouped_high_150k.pth",
+    "sha256": "b39808771a71fd766c3356880bdcd26f4779d345a334fe886a729c08d749ddce",
+    "original_checkpoint_sha256": "865f172b6b884aca54ade450617bb52ad9e7796bb91bb351ffeb42173d0ed613",
+    "iteration": 147500,
+    "tensors": 712,
+    "distribution": "not_included"
+  },
+  "single70k_whu": {
+    "file": "weights/single70k_whu.pth",
+    "sha256": "689e68e025eca256dc77adfdd6aeec94032169578fa80c6e301e91b8380d9135",
+    "original_checkpoint_sha256": "adf33d42cdd190e4b8aed0a178d3057fa030cc026431c001dd6e986be5b6d38a",
+    "iteration": 41500,
+    "tensors": 712,
+    "distribution": "not_included"
+  },
+  "single70k_s2looking": {
+    "file": "weights/single70k_s2looking.pth",
+    "sha256": "7e186a1a1bee8d67a9acdc68bfe9a8be02082e065f9bab450268d20d292ac350",
+    "original_checkpoint_sha256": "e40d71d5fa1e685cbf79417fcbd4ccd9cda3d9a0e3bd5923f309b59bfcbe5776",
+    "iteration": 37500,
+    "tensors": 712,
+    "distribution": "not_included"
+  },
+  "single70k_aihub": {
+    "file": "weights/single70k_aihub.pth",
+    "sha256": "62d6347c25c6bd7b0a653332b1e38c7d4f42c70ab05af8ce06ece153a64fd160",
+    "original_checkpoint_sha256": "3801141816c321a02ea89eb920a1f48ea3725591eb839a3448734e92df0bdd2c",
+    "iteration": 64500,
+    "tensors": 712,
+    "distribution": "not_included"
+  }
+}

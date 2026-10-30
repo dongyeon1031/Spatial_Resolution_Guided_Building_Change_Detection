@@ -1,0 +1,38 @@
+{
+  "single70k_levirplus": {
+    "resume_step": 14500,
+    "trained_through_step": 70000,
+    "selected_step": 14500,
+    "inherited_original_best": true,
+    "optimizer_state_resumed": true,
+    "selection_policy": "Best including inherited original, selected using the recorded selection split",
+    "metric_scope": "Re-evaluated selected model; historical 50k table numbers are separate reference values"
+  },
+  "single70k_whu": {
+    "resume_step": 37500,
+    "trained_through_step": 70000,
+    "selected_step": 41500,
+    "inherited_original_best": false,
+    "optimizer_state_resumed": true,
+    "selection_policy": "Best including inherited original, selected using the recorded selection split",
+    "metric_scope": "Re-evaluated selected model; historical 50k table numbers are separate reference values"
+  },
+  "single70k_s2looking": {
+    "resume_step": 37500,
+    "trained_through_step": 70000,
+    "selected_step": 37500,
+    "inherited_original_best": true,
+    "optimizer_state_resumed": true,
+    "selection_policy": "Best including inherited original, selected using the recorded selection split",
+    "metric_scope": "Re-evaluated selected model; historical 50k table numbers are separate reference values"
+  },
+  "single70k_aihub": {
+    "resume_step": 45000,
+    "trained_through_step": 70000,
+    "selected_step": 64500,
+    "inherited_original_best": false,
+    "optimizer_state_resumed": true,
+    "selection_policy": "Best including inherited original, selected using the recorded selection split",
+    "metric_scope": "Re-evaluated selected model; historical 50k table numbers are separate reference values"
+  }
+}

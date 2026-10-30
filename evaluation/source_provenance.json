@@ -1,0 +1,29 @@
+{
+  "unchanged_source_sha256": {
+    "changedetection/checkpoints.py": "c5049f171b43a1b9051eb1964bcee64d6e4eb69fbf3326c3e502ae2736bec276",
+    "changedetection/models/ChangeMambaBCD.py": "7db9667e4b260d0e3d6554e547d2c5adb812fadec99bdcc15e9a3bb737f1dc25",
+    "changedetection/models/ChangeDecoder.py": "39ff800da5fb8c965d62b69ea3828aa640daea9b123fe016ffe4c5987c7b80ed",
+    "changedetection/models/Mamba_backbone.py": "5080045f916aafa7d42d63dc7a2fd84c70dd712272f55b5714266bcca2baec24",
+    "changedetection/models/vmamba.py": "f0ad612a3c31ca5f58693bb5179edadcf05494a06e86f0ab9b2c041aadceb883",
+    "changedetection/models/csm_triton.py": "fb90b6599563ffe56cbf3c9f48c69e4983f1ef36e6c44d6a68a9885e2c7b9ed3",
+    "changedetection/models/builders.py": "0951c1fd51595783bb8434f4e52ad3fc0e7b298b6c3305f692af6f1f621cd13a",
+    "changedetection/models/decoder_factory.py": "e501e39a5d8c7b38be966feed99d595fe82bcab3f0c94e27bf1936ce1cfc8e99",
+    "changedetection/models/model_utils.py": "505f541aa5a957a926fc43e35c246e92c571163eabd20d854083d089743619d8",
+    "changedetection/evaluation/binary.py": "e4f22a4f9648d8fae739bf79441549318e216420067aebe90107d63e8b70566f",
+    "changedetection/evaluation/common.py": "1c1cee7500104806c108ca26936e42b19107cf03c54559425c68115bcfbccf92",
+    "timm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "timm/models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "timm/models/layers.py": "126afbd0dbdb84f124caec2329726378b5542f5bebefef17765dbd528db15359",
+    "fvcore/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fvcore/nn/__init__.py": "c69ac7aba4c3ac25ecb3f3c2254f9b6184106aa1b914f2ffaafea9ae55a6c8ca",
+    "changedetection/logging_utils.py": "0016728db920086812584847d73b36e388dffa64f0087cc3b7da7e36abaf707b"
+  },
+  "extracted_functions": "AST-selected function bodies; no inference arithmetic changed",
+  "kernel_source": "ChangeMamba kernels/selective_scan",
+  "helper_source_sha256": {
+    "changedetection/tasks/bcd.py": "d0a9987ad402f5a85652779abc7da4decd2f53f9942209d78db2fc4517c9e171",
+    "changedetection/datasets/imutils.py": "c1f8f25a1e1a42ac050eca76d64442356049af79a27e2a6a0cb5c269d38efdc7",
+    "changedetection/datasets/unified_geostory.py": "33cbf83103b94a1c546e2079d0a6f9bda679741b4cc4129ff6355f15b70e4af5",
+    "changedetection/script/script_utils.py": "de5aa92feec66c8445762d7e620ffc13fc68ad02ed959ed7cfa1bd5bcfd036b9"
+  }
+}

@@ -1,0 +1,12 @@
+Model/evaluator source: locally frozen ChangeMamba implementation, derived from
+https://github.com/ChenHongruixuan/ChangeMamba . See LICENSE.ChangeMamba.
+Original source notices are retained. CUDA selective-scan sources retain
+their Albert Gu/Tri Dao/Mzero notices. timm/fvcore compatibility modules
+are the same small modules used in the recorded runs. Source hashes and
+mechanical helper extraction are recorded in source_provenance.json.
+
+New code and metadata licensing is specified in LICENSE_SCOPE.txt.
+Third-party source retains its original notices and applicable terms.
+Upstream VMamba MIT terms: LICENSE.VMamba.MIT.txt (MzeroMiko, 2024).
+Upstream Mamba/selective-scan terms: LICENSE.Mamba.Apache-2.0.txt (Tri Dao, Albert Gu, 2023).
+NVIDIA terms for uninitialized_copy.cuh remain in that file header.
